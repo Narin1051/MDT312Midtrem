@@ -1,0 +1,71 @@
+body{
+	background-color: rgb(255, 186, 96);
+}
+h1{
+    background-color: rgb(255, 228, 196);
+    color: rgb(218, 59, 19);
+    padding-left: 10px;
+}
+h2{
+    background-color: rgb(255, 228, 196);
+    margin-left: 10px;
+    padding-left: 15px;
+}
+.ingd{
+    background-color: rgb(255, 228, 196);
+    margin-left: 20px;
+    display: flex;
+    font-size: 20px;
+}
+.step{
+    background-color: rgb(255, 228, 196);
+    margin-left: 20px;
+    padding-left: 20px;
+    display: flex;
+    font-size: 20px;
+    
+}
+.fpiccin{
+    background-color: rgb(255, 228, 196);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.fcin{
+    width: 20%;    
+    border: 3px dotted burlywood;    
+}
+#cin{
+    width: 90%;    
+    border: 3px dotted burlywood;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+#cin2{
+    width: 20%;    
+    border: 3px dotted burlywood;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.bottom{
+    font-size: 20px;
+    background-color: rgb(255, 228, 196);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+div a{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+h1{
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+}

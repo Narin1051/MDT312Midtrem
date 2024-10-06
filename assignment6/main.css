@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(51, 166, 211);
+}
+#myRegister{
+    margin: 10px;
+    padding: 10px;
+    border: 5px dashed rgb(58, 155, 34);
+    background-color: rgb(146, 218, 247);
+}
+#errormsg{
+    background-color: rgb(255, 100, 100);
+}
+input{
+    padding: 5px;
+}
+legend{
+    padding: 10px;
+}
+
+#myLogin{
+    margin: 10px;
+    padding: 10px;
+    border: 5px dashed rgb(58, 155, 34);
+    background-color: rgb(146, 218, 247);
+}

@@ -1,0 +1,140 @@
+body{
+	background-color: rgb(255, 233, 133);
+}
+.grid-container {
+	display: grid;
+    grid-template-columns: 20% auto auto;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgb(180, 218, 163);
+}
+.textL{
+	font-size: 15px;
+	text-align: left;
+	margin-left: 5px;
+}
+.textM{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 5px;
+}
+img{
+	width: 60%;
+	border: 5px dashed rgb(212, 48, 48);
+	margin-top: 10px;
+}
+.pizzapic{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	margin-left: 15px;
+	margin-top: 10px;
+	
+}
+#header{
+	grid-column: 1 / span 3;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 25px;
+}
+#menu{
+    grid-column: 1 / span 1;
+	padding: 10px;
+}
+#inged{
+	grid-column: 2 / span 1;
+	font-size: 20px;
+	padding: 10px;
+}
+#dip{
+	grid-column: 3 / span 1;
+	font-size: 20px;
+	padding: 10px;
+}
+#inst{
+	grid-column: 1 / span 3;
+	font-size: 20px;
+	padding: 10px;
+}
+
+
+#footer{
+	grid-column: 1 / span 3;
+	padding: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+		  
+	}
+
+	#header{
+		grid-column: 1 / span 2;
+	}
+	#menu{
+		grid-column: 1 / span 2;
+	}
+	#inged{
+		grid-column: 1 / span 1;
+		font-size: 20px;
+	}
+	#dip{
+		grid-column: 2 / span 1;
+		font-size: 20px;
+	}
+	#inst{
+		grid-column: 1 / span 2;
+		font-size: 20px;
+	}
+	#footer{
+		grid-column: 1 / span 2;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+		  
+	}
+
+	#header{
+		grid-column: 1 / span 1;
+	}
+	#menu{
+		grid-column: 1 / span 1;
+	}
+	#inged{
+		grid-column: 1 / span 1;
+		font-size: 20px;
+	}
+	#dip{
+		grid-column: 1 / span 1;
+		font-size: 20px;
+	}
+	#inst{
+		grid-column: 1 / span 1;
+		font-size: 20px;
+	}
+	#footer{
+		grid-column: 1 / span 1;
+	}
+	.pizzapic{
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 10px;
+		margin-left: 15px;
+		margin-top: 10px;
+		
+	}
+}
